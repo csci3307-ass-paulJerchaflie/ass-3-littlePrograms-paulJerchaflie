@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="com.mycompany.ass.chapter8.Child" project="ass-3-littlePrograms" 
+    file="/ass-3-littlePrograms/src/com/mycompany/ass/chapter8/Child.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="168" width="189" x="246" y="674"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.mycompany.ass.chapter8.SpendsMoney" project="ass-3-littlePrograms" 
+    file="/ass-3-littlePrograms/src/com/mycompany/ass/chapter8/SpendsMoney.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="78" width="153" x="103" y="882"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.mycompany.ass.chapter8.Exp8_HelloConstructor" project="ass-3-littlePrograms" 
+    file="/ass-3-littlePrograms/src/com/mycompany/ass/chapter8/Exp8_HelloConstructor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="157" x="65" y="276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="com.mycompany.ass.chapter8.HasName" project="ass-3-littlePrograms" 
+    file="/ass-3-littlePrograms/src/com/mycompany/ass/chapter8/HasName.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="139" x="83" y="520"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="com.mycompany.ass.chapter8.Asks4money" project="ass-3-littlePrograms" 
+    file="/ass-3-littlePrograms/src/com/mycompany/ass/chapter8/Asks4money.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="78" width="139" x="296" y="882"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="com.mycompany.ass.chapter8.GrandParent" project="ass-3-littlePrograms" 
+    file="/ass-3-littlePrograms/src/com/mycompany/ass/chapter8/GrandParent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="204" width="173" x="262" y="276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.mycompany.ass.chapter8.Parent" project="ass-3-littlePrograms" 
+    file="/ass-3-littlePrograms/src/com/mycompany/ass/chapter8/Parent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="114" width="167" x="262" y="520"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
